@@ -23,14 +23,14 @@ struct CMJCheckInstructionView: View {
                     .multilineTextAlignment(.center)
                 
                 Button {
-                        //print(selection)
-                        } label: {
-                            Text("Okay!")
-                                .foregroundColor(.white)
-                                .fontWeight(.bold)
-                                .font(.title3)
-                        }
-                        .buttonStyle(BorderedButtonStyle(tint: Color("Color1")))
+                    //print(selection)
+                } label: {
+                    Text("Okay!")
+                        .foregroundColor(.white)
+                        .fontWeight(.bold)
+                        .font(.title3)
+                }
+                .buttonStyle(BorderedButtonStyle(tint: Color("Color1")))
             }
             
             ScrollView{

@@ -25,14 +25,14 @@ struct KSSScreenAboutKSSView: View {
                     .multilineTextAlignment(.center)
                 
                 Button {
-                        //print(selection)
-                        } label: {
-                            Text("Let's Check!")
-                                .foregroundColor(.white)
-                                .fontWeight(.bold)
-                                .font(.title3)
-                        }
-                        .buttonStyle(BorderedButtonStyle(tint: Color("Color1")))
+                    //print(selection)
+                } label: {
+                    Text("Let's Check!")
+                        .foregroundColor(.white)
+                        .fontWeight(.bold)
+                        .font(.title3)
+                }
+                .buttonStyle(BorderedButtonStyle(tint: Color("Color1")))
             }
             ScrollView{
                 VStack{

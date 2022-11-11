@@ -14,7 +14,7 @@ struct StartCMJView: View {
                 .strokeBorder(Color("Color1"),lineWidth: 14)
                 .background(Circle().foregroundColor(Color.black))
             Text("Ready?")
-                .font(.title3)
+                .font(.title2)
                 .fontWeight(.semibold)
                 .foregroundColor(Color("Color1"))
         }
