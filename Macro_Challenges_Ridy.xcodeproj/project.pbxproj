@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1DA2CAA1291DDAC4008E21DF /* CMJCheckInstructionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA2CAA0291DDAC4008E21DF /* CMJCheckInstructionView.swift */; };
+		1DA2CAA3291DE601008E21DF /* StartCMJView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA2CAA2291DE601008E21DF /* StartCMJView.swift */; };
+		1DA2CAA5291DE83A008E21DF /* CMJCountDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA2CAA4291DE83A008E21DF /* CMJCountDownView.swift */; };
+		1DA2CAA7291DE95A008E21DF /* CMJPhaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA2CAA6291DE95A008E21DF /* CMJPhaseView.swift */; };
+		1DA2CAAB291DEE52008E21DF /* CMJCalculatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA2CAAA291DEE52008E21DF /* CMJCalculatingView.swift */; };
+		1DA2CAAD291DEE91008E21DF /* SuggastionSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA2CAAC291DEE91008E21DF /* SuggastionSummaryView.swift */; };
+		1DA524CE291D2C830059C850 /* CheckHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA524CD291D2C830059C850 /* CheckHistoryView.swift */; };
+		1DA524D0291D35730059C850 /* KSSScreenAboutKSSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA524CF291D35730059C850 /* KSSScreenAboutKSSView.swift */; };
+		1DA524D2291D3A140059C850 /* ChooseKSSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA524D1291D3A140059C850 /* ChooseKSSView.swift */; };
 		EEC08510291D005000FB73AF /* Macro_Challenges_RidyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC0850F291D005000FB73AF /* Macro_Challenges_RidyApp.swift */; };
 		EEC08512291D005000FB73AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC08511291D005000FB73AF /* ContentView.swift */; };
 		EEC08514291D005100FB73AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEC08513291D005100FB73AF /* Assets.xcassets */; };
@@ -66,6 +75,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1DA2CAA0291DDAC4008E21DF /* CMJCheckInstructionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMJCheckInstructionView.swift; sourceTree = "<group>"; };
+		1DA2CAA2291DE601008E21DF /* StartCMJView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartCMJView.swift; sourceTree = "<group>"; };
+		1DA2CAA4291DE83A008E21DF /* CMJCountDownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMJCountDownView.swift; sourceTree = "<group>"; };
+		1DA2CAA6291DE95A008E21DF /* CMJPhaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMJPhaseView.swift; sourceTree = "<group>"; };
+		1DA2CAAA291DEE52008E21DF /* CMJCalculatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMJCalculatingView.swift; sourceTree = "<group>"; };
+		1DA2CAAC291DEE91008E21DF /* SuggastionSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggastionSummaryView.swift; sourceTree = "<group>"; };
+		1DA524CD291D2C830059C850 /* CheckHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckHistoryView.swift; sourceTree = "<group>"; };
+		1DA524CF291D35730059C850 /* KSSScreenAboutKSSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSSScreenAboutKSSView.swift; sourceTree = "<group>"; };
+		1DA524D1291D3A140059C850 /* ChooseKSSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseKSSView.swift; sourceTree = "<group>"; };
 		EEC0850C291D005000FB73AF /* Macro_Challenges_Ridy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Macro_Challenges_Ridy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEC0850F291D005000FB73AF /* Macro_Challenges_RidyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Macro_Challenges_RidyApp.swift; sourceTree = "<group>"; };
 		EEC08511291D005000FB73AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -162,6 +180,15 @@
 				EEC08539291D005200FB73AF /* Info.plist */,
 				EEC0853A291D005200FB73AF /* PushNotificationPayload.apns */,
 				EEC08536291D005200FB73AF /* Preview Content */,
+				1DA524CD291D2C830059C850 /* CheckHistoryView.swift */,
+				1DA524CF291D35730059C850 /* KSSScreenAboutKSSView.swift */,
+				1DA524D1291D3A140059C850 /* ChooseKSSView.swift */,
+				1DA2CAA0291DDAC4008E21DF /* CMJCheckInstructionView.swift */,
+				1DA2CAA2291DE601008E21DF /* StartCMJView.swift */,
+				1DA2CAA4291DE83A008E21DF /* CMJCountDownView.swift */,
+				1DA2CAA6291DE95A008E21DF /* CMJPhaseView.swift */,
+				1DA2CAAA291DEE52008E21DF /* CMJCalculatingView.swift */,
+				1DA2CAAC291DEE91008E21DF /* SuggastionSummaryView.swift */,
 			);
 			path = "Macro_Challenges_Ridy WatchKit Extension";
 			sourceTree = "<group>";
@@ -314,9 +341,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DA524CE291D2C830059C850 /* CheckHistoryView.swift in Sources */,
+				1DA2CAAD291DEE91008E21DF /* SuggastionSummaryView.swift in Sources */,
+				1DA2CAA1291DDAC4008E21DF /* CMJCheckInstructionView.swift in Sources */,
+				1DA2CAA3291DE601008E21DF /* StartCMJView.swift in Sources */,
+				1DA524D0291D35730059C850 /* KSSScreenAboutKSSView.swift in Sources */,
+				1DA2CAAB291DEE52008E21DF /* CMJCalculatingView.swift in Sources */,
 				EEC0852F291D005100FB73AF /* NotificationController.swift in Sources */,
+				1DA524D2291D3A140059C850 /* ChooseKSSView.swift in Sources */,
 				EEC0852D291D005100FB73AF /* ContentView.swift in Sources */,
+				1DA2CAA7291DE95A008E21DF /* CMJPhaseView.swift in Sources */,
 				EEC08533291D005200FB73AF /* ComplicationController.swift in Sources */,
+				1DA2CAA5291DE83A008E21DF /* CMJCountDownView.swift in Sources */,
 				EEC0852B291D005100FB73AF /* Macro_Challenges_RidyApp.swift in Sources */,
 				EEC08531291D005100FB73AF /* NotificationView.swift in Sources */,
 			);
