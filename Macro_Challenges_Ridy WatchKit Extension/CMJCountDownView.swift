@@ -14,9 +14,13 @@ struct CMJCountDownView: View {
     
     var body: some View {
         ZStack{
-            Circle()
-                .strokeBorder(Color("Color1"),lineWidth: 14)
-                .background(Circle().foregroundColor(Color.black))
+            NavigationLink(destination: SuggastionSummaryView()){
+                Circle()
+                    .strokeBorder(Color("Color1"),lineWidth: 14)
+                    .background(Circle().foregroundColor(Color.black))
+                    .frame(width: 162, height: 162)
+            }.contentShape(Circle())
+
             
             Text("\(countDownTimer)")
                 .font(.system(size: 70))
