@@ -11,25 +11,25 @@ struct CheckHistoryView: View {
     var body: some View {
         VStack {
             TabView{
-                VStack(spacing: 33){
-                    Spacer()
-                        .frame(height: 35)
-                    Text("Are you ready \nto ride?")
-                        .fontWeight(.medium)
-                        .frame(width: 150, height: 45)
-                        .multilineTextAlignment(.center)
-                    
-                    Button {
-                        //print(selection)
-                    } label: {
-                        Text("Let's Check!")
-                            .foregroundColor(.white)
-                            .fontWeight(.bold)
-                            .font(.title3)
+                NavigationView{
+                    VStack(spacing: 33){
+                        Spacer()
+                            .frame(height: 35)
+                        Text("Are you ready \nto ride?")
+                            .fontWeight(.medium)
+                            .frame(width: 150, height: 45)
+                            .multilineTextAlignment(.center)
+                        
+                        NavigationLink(destination: KSSScreenAboutKSSView()){
+                            Text("Let's Check!")
+                                .foregroundColor(.white)
+                                .fontWeight(.bold)
+                                .font(.title3)
+                        }
+                        .buttonStyle(BorderedButtonStyle(tint: Color("Color1")))
                     }
-                    .buttonStyle(BorderedButtonStyle(tint: Color("Color1")))
-                    
                 }
+                
                 ScrollView{
                     VStack{
                         ZStack{

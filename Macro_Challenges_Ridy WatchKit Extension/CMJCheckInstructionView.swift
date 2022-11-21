@@ -10,27 +10,27 @@ import SwiftUI
 struct CMJCheckInstructionView: View {
     var body: some View {
         TabView{
-            VStack(spacing: 18){
-                Spacer()
-                    .frame(height: 35)
-                Text("We will do the 3x Jump Test!")
-                    .fontWeight(.medium)
-                    .frame(width: 150, height: 45)
-                    .multilineTextAlignment(.center)
-                Text("Jump on a Beep!")
-                    .fontWeight(.medium)
-                    .frame(width: 150, height: 45)
-                    .multilineTextAlignment(.center)
-                
-                Button {
-                    //print(selection)
-                } label: {
-                    Text("Okay!")
-                        .foregroundColor(.white)
-                        .fontWeight(.bold)
-                        .font(.title3)
+            NavigationView{
+                VStack(spacing: 18){
+                    Spacer()
+                        .frame(height: 35)
+                    Text("We will do the 3x Jump Test!")
+                        .fontWeight(.medium)
+                        .frame(width: 150, height: 45)
+                        .multilineTextAlignment(.center)
+                    Text("Jump on a Beep!")
+                        .fontWeight(.medium)
+                        .frame(width: 150, height: 45)
+                        .multilineTextAlignment(.center)
+                    
+                    NavigationLink(destination: StartCMJView()){
+                        Text("Okay!")
+                            .foregroundColor(.white)
+                            .fontWeight(.bold)
+                            .font(.title3)
+                    }
+                    .buttonStyle(BorderedButtonStyle(tint: Color("Color1")))
                 }
-                .buttonStyle(BorderedButtonStyle(tint: Color("Color1")))
             }
             
             ScrollView{
