@@ -25,7 +25,7 @@ struct CheckHistoryView: View {
                                 .foregroundColor(.white)
                                 .fontWeight(.bold)
                                 .font(.title3)
-                        }
+                        }   
                         .buttonStyle(BorderedButtonStyle(tint: Color("Color1")))
                     }
                 }

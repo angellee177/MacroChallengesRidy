@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D012AEA292F800600AD342F /* SugestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D012AE9292F800600AD342F /* SugestionView.swift */; };
+		1D8BB568292B773A00E65DE0 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8BB567292B773A00E65DE0 /* DashboardView.swift */; };
+		1D9B926D292E228700123523 /* KSSLevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9B926C292E228700123523 /* KSSLevelView.swift */; };
 		1DA2CAA1291DDAC4008E21DF /* CMJCheckInstructionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA2CAA0291DDAC4008E21DF /* CMJCheckInstructionView.swift */; };
 		1DA2CAA3291DE601008E21DF /* StartCMJView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA2CAA2291DE601008E21DF /* StartCMJView.swift */; };
 		1DA2CAA5291DE83A008E21DF /* CMJCountDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA2CAA4291DE83A008E21DF /* CMJCountDownView.swift */; };
@@ -75,6 +78,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1D012AE9292F800600AD342F /* SugestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SugestionView.swift; sourceTree = "<group>"; };
+		1D8BB567292B773A00E65DE0 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		1D9B926C292E228700123523 /* KSSLevelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSSLevelView.swift; sourceTree = "<group>"; };
 		1DA2CAA0291DDAC4008E21DF /* CMJCheckInstructionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMJCheckInstructionView.swift; sourceTree = "<group>"; };
 		1DA2CAA2291DE601008E21DF /* StartCMJView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartCMJView.swift; sourceTree = "<group>"; };
 		1DA2CAA4291DE83A008E21DF /* CMJCountDownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMJCountDownView.swift; sourceTree = "<group>"; };
@@ -148,6 +154,9 @@
 				EEC08511291D005000FB73AF /* ContentView.swift */,
 				EEC08513291D005100FB73AF /* Assets.xcassets */,
 				EEC08515291D005100FB73AF /* Preview Content */,
+				1D8BB567292B773A00E65DE0 /* DashboardView.swift */,
+				1D9B926C292E228700123523 /* KSSLevelView.swift */,
+				1D012AE9292F800600AD342F /* SugestionView.swift */,
 			);
 			path = Macro_Challenges_Ridy;
 			sourceTree = "<group>";
@@ -333,6 +342,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEC08512291D005000FB73AF /* ContentView.swift in Sources */,
+				1D9B926D292E228700123523 /* KSSLevelView.swift in Sources */,
+				1D012AEA292F800600AD342F /* SugestionView.swift in Sources */,
+				1D8BB568292B773A00E65DE0 /* DashboardView.swift in Sources */,
 				EEC08510291D005000FB73AF /* Macro_Challenges_RidyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
