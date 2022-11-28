@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17571A7329343AA000BDC2AF /* KSSLV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17571A7229343AA000BDC2AF /* KSSLV.swift */; };
 		1D012AEA292F800600AD342F /* SugestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D012AE9292F800600AD342F /* SugestionView.swift */; };
 		1D8BB568292B773A00E65DE0 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8BB567292B773A00E65DE0 /* DashboardView.swift */; };
 		1D9B926D292E228700123523 /* KSSLevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9B926C292E228700123523 /* KSSLevelView.swift */; };
@@ -25,7 +26,6 @@
 		EEC08517291D005100FB73AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEC08516291D005100FB73AF /* Preview Assets.xcassets */; };
 		EEC0851B291D005100FB73AF /* Macro_Challenges_Ridy WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = EEC0851A291D005100FB73AF /* Macro_Challenges_Ridy WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		EEC08520291D005100FB73AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEC0851F291D005100FB73AF /* Assets.xcassets */; };
-		EEC08526291D005100FB73AF /* Macro_Challenges_Ridy WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EEC08525291D005100FB73AF /* Macro_Challenges_Ridy WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		EEC0852B291D005100FB73AF /* Macro_Challenges_RidyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC0852A291D005100FB73AF /* Macro_Challenges_RidyApp.swift */; };
 		EEC0852D291D005100FB73AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC0852C291D005100FB73AF /* ContentView.swift */; };
 		EEC0852F291D005100FB73AF /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC0852E291D005100FB73AF /* NotificationController.swift */; };
@@ -43,27 +43,9 @@
 			remoteGlobalIDString = EEC08519291D005100FB73AF;
 			remoteInfo = "Macro_Challenges_Ridy WatchKit App";
 		};
-		EEC08527291D005100FB73AF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EEC08504291D005000FB73AF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EEC08524291D005100FB73AF;
-			remoteInfo = "Macro_Challenges_Ridy WatchKit Extension";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		EEC08540291D005200FB73AF /* Embed App Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				EEC08526291D005100FB73AF /* Macro_Challenges_Ridy WatchKit Extension.appex in Embed App Extensions */,
-			);
-			name = "Embed App Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		EEC08544291D005200FB73AF /* Embed Watch Content */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -78,6 +60,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		17571A7229343AA000BDC2AF /* KSSLV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSSLV.swift; sourceTree = "<group>"; };
 		1D012AE9292F800600AD342F /* SugestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SugestionView.swift; sourceTree = "<group>"; };
 		1D8BB567292B773A00E65DE0 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		1D9B926C292E228700123523 /* KSSLevelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSSLevelView.swift; sourceTree = "<group>"; };
@@ -97,7 +80,6 @@
 		EEC08516291D005100FB73AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EEC0851A291D005100FB73AF /* Macro_Challenges_Ridy WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Macro_Challenges_Ridy WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEC0851F291D005100FB73AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EEC08525291D005100FB73AF /* Macro_Challenges_Ridy WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Macro_Challenges_Ridy WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEC0852A291D005100FB73AF /* Macro_Challenges_RidyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Macro_Challenges_RidyApp.swift; sourceTree = "<group>"; };
 		EEC0852C291D005100FB73AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EEC0852E291D005100FB73AF /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
@@ -142,7 +124,6 @@
 			children = (
 				EEC0850C291D005000FB73AF /* Macro_Challenges_Ridy.app */,
 				EEC0851A291D005100FB73AF /* Macro_Challenges_Ridy WatchKit App.app */,
-				EEC08525291D005100FB73AF /* Macro_Challenges_Ridy WatchKit Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -156,6 +137,7 @@
 				EEC08515291D005100FB73AF /* Preview Content */,
 				1D8BB567292B773A00E65DE0 /* DashboardView.swift */,
 				1D9B926C292E228700123523 /* KSSLevelView.swift */,
+				17571A7229343AA000BDC2AF /* KSSLV.swift */,
 				1D012AE9292F800600AD342F /* SugestionView.swift */,
 			);
 			path = Macro_Challenges_Ridy;
@@ -237,34 +219,17 @@
 			buildConfigurationList = EEC08541291D005200FB73AF /* Build configuration list for PBXNativeTarget "Macro_Challenges_Ridy WatchKit App" */;
 			buildPhases = (
 				EEC08518291D005100FB73AF /* Resources */,
-				EEC08540291D005200FB73AF /* Embed App Extensions */,
+				EEC08521291D005100FB73AF /* Sources */,
+				EEC08522291D005100FB73AF /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EEC08528291D005100FB73AF /* PBXTargetDependency */,
 			);
 			name = "Macro_Challenges_Ridy WatchKit App";
 			productName = "Macro_Challenges_Ridy WatchKit App";
 			productReference = EEC0851A291D005100FB73AF /* Macro_Challenges_Ridy WatchKit App.app */;
-			productType = "com.apple.product-type.application.watchapp2";
-		};
-		EEC08524291D005100FB73AF /* Macro_Challenges_Ridy WatchKit Extension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EEC0853D291D005200FB73AF /* Build configuration list for PBXNativeTarget "Macro_Challenges_Ridy WatchKit Extension" */;
-			buildPhases = (
-				EEC08521291D005100FB73AF /* Sources */,
-				EEC08522291D005100FB73AF /* Frameworks */,
-				EEC08523291D005100FB73AF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Macro_Challenges_Ridy WatchKit Extension";
-			productName = "Macro_Challenges_Ridy WatchKit Extension";
-			productReference = EEC08525291D005100FB73AF /* Macro_Challenges_Ridy WatchKit Extension.appex */;
-			productType = "com.apple.product-type.watchkit2-extension";
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -274,15 +239,12 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1340;
-				LastUpgradeCheck = 1340;
+				LastUpgradeCheck = 1410;
 				TargetAttributes = {
 					EEC0850B291D005000FB73AF = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
 					EEC08519291D005100FB73AF = {
-						CreatedOnToolsVersion = 13.4.1;
-					};
-					EEC08524291D005100FB73AF = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
 				};
@@ -302,7 +264,6 @@
 			targets = (
 				EEC0850B291D005000FB73AF /* Macro_Challenges_Ridy */,
 				EEC08519291D005100FB73AF /* Macro_Challenges_Ridy WatchKit App */,
-				EEC08524291D005100FB73AF /* Macro_Challenges_Ridy WatchKit Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -321,16 +282,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEC08520291D005100FB73AF /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EEC08523291D005100FB73AF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 				EEC08538291D005200FB73AF /* Preview Assets.xcassets in Resources */,
 				EEC08535291D005200FB73AF /* Assets.xcassets in Resources */,
+				EEC08520291D005100FB73AF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEC08512291D005000FB73AF /* ContentView.swift in Sources */,
+				17571A7329343AA000BDC2AF /* KSSLV.swift in Sources */,
 				1D9B926D292E228700123523 /* KSSLevelView.swift in Sources */,
 				1D012AEA292F800600AD342F /* SugestionView.swift in Sources */,
 				1D8BB568292B773A00E65DE0 /* DashboardView.swift in Sources */,
@@ -377,11 +332,6 @@
 			isa = PBXTargetDependency;
 			target = EEC08519291D005100FB73AF /* Macro_Challenges_Ridy WatchKit App */;
 			targetProxy = EEC0851C291D005100FB73AF /* PBXContainerItemProxy */;
-		};
-		EEC08528291D005100FB73AF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = EEC08524291D005100FB73AF /* Macro_Challenges_Ridy WatchKit Extension */;
-			targetProxy = EEC08527291D005100FB73AF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -419,6 +369,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -477,6 +428,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -495,85 +447,27 @@
 			};
 			name = Release;
 		};
-		EEC0853E291D005200FB73AF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Macro_Challenges_Ridy WatchKit Extension/Preview Content\"";
-				DEVELOPMENT_TEAM = HTHQDDC4TA;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Macro_Challenges_Ridy WatchKit Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Macro_Challenges_Ridy WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Macro-Challenges-Ridy.watchkitapp.watchkitextension";
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 8.5;
-			};
-			name = Debug;
-		};
-		EEC0853F291D005200FB73AF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Macro_Challenges_Ridy WatchKit Extension/Preview Content\"";
-				DEVELOPMENT_TEAM = HTHQDDC4TA;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Macro_Challenges_Ridy WatchKit Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Macro_Challenges_Ridy WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Macro-Challenges-Ridy.watchkitapp.watchkitextension";
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 8.5;
-			};
-			name = Release;
-		};
 		EEC08542291D005200FB73AF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HTHQDDC4TA;
 				GENERATE_INFOPLIST_FILE = YES;
-				IBSC_MODULE = Macro_Challenges_Ridy_WatchKit_Extension;
 				INFOPLIST_KEY_CFBundleDisplayName = "Macro_Challenges_Ridy WatchKit App";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.test.Macro-Challenges-Ridy";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Macro-Challenges-Ridy.watchkitapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -591,15 +485,22 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HTHQDDC4TA;
 				GENERATE_INFOPLIST_FILE = YES;
-				IBSC_MODULE = Macro_Challenges_Ridy_WatchKit_Extension;
 				INFOPLIST_KEY_CFBundleDisplayName = "Macro_Challenges_Ridy WatchKit App";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.test.Macro-Challenges-Ridy";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Macro-Challenges-Ridy.watchkitapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -684,15 +585,6 @@
 			buildConfigurations = (
 				EEC0853B291D005200FB73AF /* Debug */,
 				EEC0853C291D005200FB73AF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EEC0853D291D005200FB73AF /* Build configuration list for PBXNativeTarget "Macro_Challenges_Ridy WatchKit Extension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EEC0853E291D005200FB73AF /* Debug */,
-				EEC0853F291D005200FB73AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
