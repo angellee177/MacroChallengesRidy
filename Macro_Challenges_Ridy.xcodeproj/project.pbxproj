@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		1D012AEA292F800600AD342F /* SugestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D012AE9292F800600AD342F /* SugestionView.swift */; };
+		1D0B29E0292FAEE800740F33 /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0B29DF292FAEE800740F33 /* SummaryView.swift */; };
+		1D0CB306293445E600C706CC /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0CB305293445E600C706CC /* HistoryView.swift */; };
+		1D0CB30A293449CF00C706CC /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0CB309293449CF00C706CC /* MainView.swift */; };
+		1D0CB30D2934666D00C706CC /* HalfASheet in Frameworks */ = {isa = PBXBuildFile; productRef = 1D0CB30C2934666D00C706CC /* HalfASheet */; };
+		1D7716C62934B4FC00CD6EB6 /* CountDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7716C52934B4FC00CD6EB6 /* CountDown.swift */; };
 		1D8BB568292B773A00E65DE0 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8BB567292B773A00E65DE0 /* DashboardView.swift */; };
 		1D9B926D292E228700123523 /* KSSLevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9B926C292E228700123523 /* KSSLevelView.swift */; };
 		1DA2CAA1291DDAC4008E21DF /* CMJCheckInstructionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA2CAA0291DDAC4008E21DF /* CMJCheckInstructionView.swift */; };
@@ -79,6 +84,10 @@
 
 /* Begin PBXFileReference section */
 		1D012AE9292F800600AD342F /* SugestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SugestionView.swift; sourceTree = "<group>"; };
+		1D0B29DF292FAEE800740F33 /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
+		1D0CB305293445E600C706CC /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		1D0CB309293449CF00C706CC /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		1D7716C52934B4FC00CD6EB6 /* CountDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountDown.swift; sourceTree = "<group>"; };
 		1D8BB567292B773A00E65DE0 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		1D9B926C292E228700123523 /* KSSLevelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSSLevelView.swift; sourceTree = "<group>"; };
 		1DA2CAA0291DDAC4008E21DF /* CMJCheckInstructionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMJCheckInstructionView.swift; sourceTree = "<group>"; };
@@ -114,6 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D0CB30D2934666D00C706CC /* HalfASheet in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,9 +164,13 @@
 				EEC08511291D005000FB73AF /* ContentView.swift */,
 				EEC08513291D005100FB73AF /* Assets.xcassets */,
 				EEC08515291D005100FB73AF /* Preview Content */,
+				1D0CB309293449CF00C706CC /* MainView.swift */,
 				1D8BB567292B773A00E65DE0 /* DashboardView.swift */,
+				1D0CB305293445E600C706CC /* HistoryView.swift */,
 				1D9B926C292E228700123523 /* KSSLevelView.swift */,
 				1D012AE9292F800600AD342F /* SugestionView.swift */,
+				1D0B29DF292FAEE800740F33 /* SummaryView.swift */,
+				1D7716C52934B4FC00CD6EB6 /* CountDown.swift */,
 			);
 			path = Macro_Challenges_Ridy;
 			sourceTree = "<group>";
@@ -228,6 +242,9 @@
 				EEC0851D291D005100FB73AF /* PBXTargetDependency */,
 			);
 			name = Macro_Challenges_Ridy;
+			packageProductDependencies = (
+				1D0CB30C2934666D00C706CC /* HalfASheet */,
+			);
 			productName = Macro_Challenges_Ridy;
 			productReference = EEC0850C291D005000FB73AF /* Macro_Challenges_Ridy.app */;
 			productType = "com.apple.product-type.application";
@@ -296,6 +313,9 @@
 				Base,
 			);
 			mainGroup = EEC08503291D005000FB73AF;
+			packageReferences = (
+				1D0CB30B2934666D00C706CC /* XCRemoteSwiftPackageReference "HalfASheet" */,
+			);
 			productRefGroup = EEC0850D291D005000FB73AF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -342,10 +362,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEC08512291D005000FB73AF /* ContentView.swift in Sources */,
+				1D0CB30A293449CF00C706CC /* MainView.swift in Sources */,
+				1D7716C62934B4FC00CD6EB6 /* CountDown.swift in Sources */,
+				1D0CB306293445E600C706CC /* HistoryView.swift in Sources */,
 				1D9B926D292E228700123523 /* KSSLevelView.swift in Sources */,
 				1D012AEA292F800600AD342F /* SugestionView.swift in Sources */,
 				1D8BB568292B773A00E65DE0 /* DashboardView.swift in Sources */,
 				EEC08510291D005000FB73AF /* Macro_Challenges_RidyApp.swift in Sources */,
+				1D0B29E0292FAEE800740F33 /* SummaryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -716,6 +740,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1D0CB30B2934666D00C706CC /* XCRemoteSwiftPackageReference "HalfASheet" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/franklynw/HalfASheet";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1D0CB30C2934666D00C706CC /* HalfASheet */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1D0CB30B2934666D00C706CC /* XCRemoteSwiftPackageReference "HalfASheet" */;
+			productName = HalfASheet;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EEC08504291D005000FB73AF /* Project object */;
 }
