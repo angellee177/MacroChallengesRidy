@@ -52,7 +52,7 @@ struct SummaryView: View {
                                 Text(": 93 BPM")
                                     .font(.title3)
                                     .fontWeight(.semibold)
-                                    .foregroundColor(Color("Color2"))
+                                    .foregroundColor(.green)
                             }.frame(width: 300, height: 24, alignment: .leading)
                         }
                         
@@ -75,7 +75,7 @@ struct SummaryView: View {
                                 Text(": 94%")
                                     .font(.title3)
                                     .fontWeight(.semibold)
-                                    .foregroundColor(Color("Color2"))
+                                    .foregroundColor(.red)
                             }.frame(width: 300, height: 24, alignment: .leading)
                         }
                         
@@ -98,7 +98,7 @@ struct SummaryView: View {
                                 Text(": 14h 0m")
                                     .font(.title3)
                                     .fontWeight(.semibold)
-                                    .foregroundColor(Color("Color2"))
+                                    .foregroundColor(.yellow)
                             }.frame(width: 300, height: 24, alignment: .leading)
                         }
                         
@@ -121,7 +121,7 @@ struct SummaryView: View {
                                 Text(": 5h 52m")
                                     .font(.title3)
                                     .fontWeight(.semibold)
-                                    .foregroundColor(Color("Color2"))
+                                    .foregroundColor(.yellow)
                             }.frame(width: 300, height: 24, alignment: .leading)
                         }
                         
@@ -144,7 +144,7 @@ struct SummaryView: View {
                                 Text(": 4")
                                     .font(.title3)
                                     .fontWeight(.semibold)
-                                    .foregroundColor(Color("Color2"))
+                                    .foregroundColor(.green)
                             }.frame(width: 300, height: 24, alignment: .leading)
                         }
                     }
@@ -152,7 +152,7 @@ struct SummaryView: View {
                         .frame(height: 36)
                     
                     VStack{
-                        Text("Notes")
+                        Text("Notes:")
                             .font(.title3)
                             .fontWeight(.semibold)
                             .foregroundColor(.white)
@@ -180,9 +180,16 @@ struct SummaryView: View {
                             VStack{
                                 Text("A resting oxygen saturation level between 95% and 100% is regarded as normal for a healthy person at sea level. 92% is considered as hypoxia and you may need to see a doctor.")
                                     .foregroundColor(.white)
-                                    .frame(width: 316, height: 98, alignment: .leading)
+                                    .frame(width: 316, height: 110, alignment: .leading)
+                                
+                                Text("(Yale Medicine)")
+                                    .font(.caption)
+                                    .foregroundColor(Color("Color4"))
+                                    .frame(width: 316, alignment: .leading)
                             }
                         }
+                        Spacer()
+                            .frame(height: 35)
                         
                         VStack{
                             Text("Back to Dashboard")

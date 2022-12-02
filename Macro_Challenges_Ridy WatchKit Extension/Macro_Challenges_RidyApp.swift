@@ -12,7 +12,7 @@ struct Macro_Challenges_RidyApp: App {
     @SceneBuilder var body: some Scene {
         WindowGroup {
             NavigationView {
-                CheckHistoryView()
+                ContentView()
                 
             }
         }

@@ -12,17 +12,15 @@
 		1D0CB306293445E600C706CC /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0CB305293445E600C706CC /* HistoryView.swift */; };
 		1D0CB30A293449CF00C706CC /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0CB309293449CF00C706CC /* MainView.swift */; };
 		1D0CB30D2934666D00C706CC /* HalfASheet in Frameworks */ = {isa = PBXBuildFile; productRef = 1D0CB30C2934666D00C706CC /* HalfASheet */; };
+		1D1582602935C80200E601B9 /* BeforeRidingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D15825F2935C80200E601B9 /* BeforeRidingView.swift */; };
+		1D1582622935C87000E601B9 /* StartMonitoringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1582612935C87000E601B9 /* StartMonitoringView.swift */; };
+		1D17855E2938527B00CDC14E /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D17855D2938527B00CDC14E /* OnBoardingView.swift */; };
 		1D7716C62934B4FC00CD6EB6 /* CountDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7716C52934B4FC00CD6EB6 /* CountDown.swift */; };
 		1D8BB568292B773A00E65DE0 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8BB567292B773A00E65DE0 /* DashboardView.swift */; };
 		1D9B926D292E228700123523 /* KSSLevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9B926C292E228700123523 /* KSSLevelView.swift */; };
-		1DA2CAA1291DDAC4008E21DF /* CMJCheckInstructionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA2CAA0291DDAC4008E21DF /* CMJCheckInstructionView.swift */; };
-		1DA2CAA3291DE601008E21DF /* StartCMJView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA2CAA2291DE601008E21DF /* StartCMJView.swift */; };
-		1DA2CAA5291DE83A008E21DF /* CMJCountDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA2CAA4291DE83A008E21DF /* CMJCountDownView.swift */; };
-		1DA2CAA7291DE95A008E21DF /* CMJPhaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA2CAA6291DE95A008E21DF /* CMJPhaseView.swift */; };
-		1DA2CAAB291DEE52008E21DF /* CMJCalculatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA2CAAA291DEE52008E21DF /* CMJCalculatingView.swift */; };
-		1DA2CAAD291DEE91008E21DF /* SuggastionSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA2CAAC291DEE91008E21DF /* SuggastionSummaryView.swift */; };
-		1DA524CE291D2C830059C850 /* CheckHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA524CD291D2C830059C850 /* CheckHistoryView.swift */; };
-		1DA524D0291D35730059C850 /* KSSScreenAboutKSSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA524CF291D35730059C850 /* KSSScreenAboutKSSView.swift */; };
+		1DA2CAA3291DE601008E21DF /* AssesKSSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA2CAA2291DE601008E21DF /* AssesKSSView.swift */; };
+		1DA2CAAD291DEE91008E21DF /* SuggestionSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA2CAAC291DEE91008E21DF /* SuggestionSummaryView.swift */; };
+		1DA524CE291D2C830059C850 /* CheckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA524CD291D2C830059C850 /* CheckView.swift */; };
 		1DA524D2291D3A140059C850 /* ChooseKSSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA524D1291D3A140059C850 /* ChooseKSSView.swift */; };
 		EEC08510291D005000FB73AF /* Macro_Challenges_RidyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC0850F291D005000FB73AF /* Macro_Challenges_RidyApp.swift */; };
 		EEC08512291D005000FB73AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC08511291D005000FB73AF /* ContentView.swift */; };
@@ -87,17 +85,15 @@
 		1D0B29DF292FAEE800740F33 /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
 		1D0CB305293445E600C706CC /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 		1D0CB309293449CF00C706CC /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		1D15825F2935C80200E601B9 /* BeforeRidingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeforeRidingView.swift; sourceTree = "<group>"; };
+		1D1582612935C87000E601B9 /* StartMonitoringView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartMonitoringView.swift; sourceTree = "<group>"; };
+		1D17855D2938527B00CDC14E /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
 		1D7716C52934B4FC00CD6EB6 /* CountDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountDown.swift; sourceTree = "<group>"; };
 		1D8BB567292B773A00E65DE0 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		1D9B926C292E228700123523 /* KSSLevelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSSLevelView.swift; sourceTree = "<group>"; };
-		1DA2CAA0291DDAC4008E21DF /* CMJCheckInstructionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMJCheckInstructionView.swift; sourceTree = "<group>"; };
-		1DA2CAA2291DE601008E21DF /* StartCMJView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartCMJView.swift; sourceTree = "<group>"; };
-		1DA2CAA4291DE83A008E21DF /* CMJCountDownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMJCountDownView.swift; sourceTree = "<group>"; };
-		1DA2CAA6291DE95A008E21DF /* CMJPhaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMJPhaseView.swift; sourceTree = "<group>"; };
-		1DA2CAAA291DEE52008E21DF /* CMJCalculatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMJCalculatingView.swift; sourceTree = "<group>"; };
-		1DA2CAAC291DEE91008E21DF /* SuggastionSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggastionSummaryView.swift; sourceTree = "<group>"; };
-		1DA524CD291D2C830059C850 /* CheckHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckHistoryView.swift; sourceTree = "<group>"; };
-		1DA524CF291D35730059C850 /* KSSScreenAboutKSSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSSScreenAboutKSSView.swift; sourceTree = "<group>"; };
+		1DA2CAA2291DE601008E21DF /* AssesKSSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssesKSSView.swift; sourceTree = "<group>"; };
+		1DA2CAAC291DEE91008E21DF /* SuggestionSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionSummaryView.swift; sourceTree = "<group>"; };
+		1DA524CD291D2C830059C850 /* CheckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckView.swift; sourceTree = "<group>"; };
 		1DA524D1291D3A140059C850 /* ChooseKSSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseKSSView.swift; sourceTree = "<group>"; };
 		EEC0850C291D005000FB73AF /* Macro_Challenges_Ridy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Macro_Challenges_Ridy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEC0850F291D005000FB73AF /* Macro_Challenges_RidyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Macro_Challenges_RidyApp.swift; sourceTree = "<group>"; };
@@ -164,6 +160,7 @@
 				EEC08511291D005000FB73AF /* ContentView.swift */,
 				EEC08513291D005100FB73AF /* Assets.xcassets */,
 				EEC08515291D005100FB73AF /* Preview Content */,
+				1D17855D2938527B00CDC14E /* OnBoardingView.swift */,
 				1D0CB309293449CF00C706CC /* MainView.swift */,
 				1D8BB567292B773A00E65DE0 /* DashboardView.swift */,
 				1D0CB305293445E600C706CC /* HistoryView.swift */,
@@ -203,15 +200,12 @@
 				EEC08539291D005200FB73AF /* Info.plist */,
 				EEC0853A291D005200FB73AF /* PushNotificationPayload.apns */,
 				EEC08536291D005200FB73AF /* Preview Content */,
-				1DA524CD291D2C830059C850 /* CheckHistoryView.swift */,
-				1DA524CF291D35730059C850 /* KSSScreenAboutKSSView.swift */,
+				1DA524CD291D2C830059C850 /* CheckView.swift */,
 				1DA524D1291D3A140059C850 /* ChooseKSSView.swift */,
-				1DA2CAA0291DDAC4008E21DF /* CMJCheckInstructionView.swift */,
-				1DA2CAA2291DE601008E21DF /* StartCMJView.swift */,
-				1DA2CAA4291DE83A008E21DF /* CMJCountDownView.swift */,
-				1DA2CAA6291DE95A008E21DF /* CMJPhaseView.swift */,
-				1DA2CAAA291DEE52008E21DF /* CMJCalculatingView.swift */,
-				1DA2CAAC291DEE91008E21DF /* SuggastionSummaryView.swift */,
+				1DA2CAA2291DE601008E21DF /* AssesKSSView.swift */,
+				1DA2CAAC291DEE91008E21DF /* SuggestionSummaryView.swift */,
+				1D15825F2935C80200E601B9 /* BeforeRidingView.swift */,
+				1D1582612935C87000E601B9 /* StartMonitoringView.swift */,
 			);
 			path = "Macro_Challenges_Ridy WatchKit Extension";
 			sourceTree = "<group>";
@@ -364,6 +358,7 @@
 				EEC08512291D005000FB73AF /* ContentView.swift in Sources */,
 				1D0CB30A293449CF00C706CC /* MainView.swift in Sources */,
 				1D7716C62934B4FC00CD6EB6 /* CountDown.swift in Sources */,
+				1D17855E2938527B00CDC14E /* OnBoardingView.swift in Sources */,
 				1D0CB306293445E600C706CC /* HistoryView.swift in Sources */,
 				1D9B926D292E228700123523 /* KSSLevelView.swift in Sources */,
 				1D012AEA292F800600AD342F /* SugestionView.swift in Sources */,
@@ -377,18 +372,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DA524CE291D2C830059C850 /* CheckHistoryView.swift in Sources */,
-				1DA2CAAD291DEE91008E21DF /* SuggastionSummaryView.swift in Sources */,
-				1DA2CAA1291DDAC4008E21DF /* CMJCheckInstructionView.swift in Sources */,
-				1DA2CAA3291DE601008E21DF /* StartCMJView.swift in Sources */,
-				1DA524D0291D35730059C850 /* KSSScreenAboutKSSView.swift in Sources */,
-				1DA2CAAB291DEE52008E21DF /* CMJCalculatingView.swift in Sources */,
+				1DA524CE291D2C830059C850 /* CheckView.swift in Sources */,
+				1D1582622935C87000E601B9 /* StartMonitoringView.swift in Sources */,
+				1DA2CAAD291DEE91008E21DF /* SuggestionSummaryView.swift in Sources */,
+				1DA2CAA3291DE601008E21DF /* AssesKSSView.swift in Sources */,
 				EEC0852F291D005100FB73AF /* NotificationController.swift in Sources */,
 				1DA524D2291D3A140059C850 /* ChooseKSSView.swift in Sources */,
 				EEC0852D291D005100FB73AF /* ContentView.swift in Sources */,
-				1DA2CAA7291DE95A008E21DF /* CMJPhaseView.swift in Sources */,
+				1D1582602935C80200E601B9 /* BeforeRidingView.swift in Sources */,
 				EEC08533291D005200FB73AF /* ComplicationController.swift in Sources */,
-				1DA2CAA5291DE83A008E21DF /* CMJCountDownView.swift in Sources */,
 				EEC0852B291D005100FB73AF /* Macro_Challenges_RidyApp.swift in Sources */,
 				EEC08531291D005100FB73AF /* NotificationView.swift in Sources */,
 			);

@@ -8,11 +8,13 @@
 import SwiftUI
 
 struct MainView: View {
+//    @AppStorage("shouldShowOnBoarding") var shouldShowOnBoarding: Bool = true
+    @State var shouldShowOnBoarding: Bool = true
+
     var body: some View {
         NavigationView{
             TabView{
                 DashboardView()
-                    
                     .tabItem {
                         Label("Riding", systemImage: "figure.wave")
                     }
@@ -23,7 +25,12 @@ struct MainView: View {
             }
             .accentColor(Color("Color6"))
             .edgesIgnoringSafeArea(.bottom)
-        }.environmentObject(NavigationDahsboard())
+        }
+        .environmentObject(NavigationDahsboard())
+        .fullScreenCover(isPresented: $shouldShowOnBoarding, content: { OnBoardingView(shouldShowOnBoarding: $shouldShowOnBoarding)
+            
+        })
+        
     }
 }
 

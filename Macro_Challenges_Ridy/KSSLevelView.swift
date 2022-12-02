@@ -22,7 +22,7 @@ struct KSSLevelView: View {
                     Spacer()
                         .frame(height: 20)
                     VStack{
-                        Text("Please be aware that your personal opinion on your well-being weighs heavily. \nStart with assesing how you feel by Karolinska Sleepiness Scale (KSS).")
+                        Text("Please be aware that your personal opinion on your well-being weighs heavily. \nStart by assesing how you feel with Karolinska Sleepiness Scale (KSS).")
                             .fontWeight(.semibold)
                             .foregroundColor(.white)
                             .frame(width: 353, height: 88)
@@ -372,5 +372,6 @@ struct KSSLevelView: View {
 struct KSSLevelView_Previews: PreviewProvider {
     static var previews: some View {
         KSSLevelView()
+            .environmentObject(NavigationDahsboard())
     }
 }
