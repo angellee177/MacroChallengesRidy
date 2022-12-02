@@ -14,11 +14,5 @@
 		<key>NSExtensionPointIdentifier</key>
 		<string>com.apple.watchkit</string>
 	</dict>
-	<key>NSHealthClinicalHealthRecordsShareUsageDescription</key>
-	<string>This app requires to access your health data to calculate your fatigue level.</string>
-	<key>NSHealthShareUsageDescription</key>
-	<string>This app requires to access your health data to calculate your fatigue level.</string>
-	<key>NSHealthUpdateUsageDescription</key>
-	<string>This app requires to access your health data to calculate your fatigue level.</string>
 </dict>
 </plist>
