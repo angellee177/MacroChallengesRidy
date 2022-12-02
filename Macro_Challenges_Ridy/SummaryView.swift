@@ -10,6 +10,8 @@ import HalfASheet
 
 struct SummaryView: View {
     @State private var isShowing = false
+    @StateObject var vmModel = VmForDashboard()
+    
     @EnvironmentObject var isDashboardActive : NavigationDahsboard
     var body: some View {
         ZStack{
@@ -94,11 +96,16 @@ struct SummaryView: View {
                                 
                                 Spacer()
                                     .frame(width: 32)
-
-                                Text(": 14h 0m")
-                                    .font(.title3)
-                                    .fontWeight(.semibold)
-                                    .foregroundColor(.yellow)
+                                
+                                if let date = vmModel.lastTimeSleep {
+                                    Text("\(date)").font(.title3)
+                                        .fontWeight(.semibold)
+                                        .foregroundColor(Color("Color2"))
+                                } else {
+                                        Text(": No data.").font(.title3)
+                                            .fontWeight(.semibold)
+                                            .foregroundColor(Color("Color2"))
+                                }
                             }.frame(width: 300, height: 24, alignment: .leading)
                         }
                         

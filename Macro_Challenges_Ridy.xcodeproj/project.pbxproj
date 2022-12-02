@@ -22,6 +22,10 @@
 		1DA2CAAD291DEE91008E21DF /* SuggestionSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA2CAAC291DEE91008E21DF /* SuggestionSummaryView.swift */; };
 		1DA524CE291D2C830059C850 /* CheckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA524CD291D2C830059C850 /* CheckView.swift */; };
 		1DA524D2291D3A140059C850 /* ChooseKSSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA524D1291D3A140059C850 /* ChooseKSSView.swift */; };
+		EE2799CB29360D400020E74C /* CobaCobaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2799CA29360D400020E74C /* CobaCobaView.swift */; };
+		EE2799CF29360E130020E74C /* VmDashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2799CE29360E130020E74C /* VmDashboard.swift */; };
+		EE2799D129360EC70020E74C /* HealthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2799D029360EC70020E74C /* HealthManager.swift */; };
+		EE9EF11729373A6C003585A3 /* AskPermissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9EF11629373A6C003585A3 /* AskPermissionView.swift */; };
 		EEC08510291D005000FB73AF /* Macro_Challenges_RidyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC0850F291D005000FB73AF /* Macro_Challenges_RidyApp.swift */; };
 		EEC08512291D005000FB73AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC08511291D005000FB73AF /* ContentView.swift */; };
 		EEC08514291D005100FB73AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEC08513291D005100FB73AF /* Assets.xcassets */; };
@@ -95,6 +99,10 @@
 		1DA2CAAC291DEE91008E21DF /* SuggestionSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionSummaryView.swift; sourceTree = "<group>"; };
 		1DA524CD291D2C830059C850 /* CheckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckView.swift; sourceTree = "<group>"; };
 		1DA524D1291D3A140059C850 /* ChooseKSSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseKSSView.swift; sourceTree = "<group>"; };
+		EE2799CA29360D400020E74C /* CobaCobaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CobaCobaView.swift; sourceTree = "<group>"; };
+		EE2799CE29360E130020E74C /* VmDashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VmDashboard.swift; sourceTree = "<group>"; };
+		EE2799D029360EC70020E74C /* HealthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthManager.swift; sourceTree = "<group>"; };
+		EE9EF11629373A6C003585A3 /* AskPermissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskPermissionView.swift; sourceTree = "<group>"; };
 		EEC0850C291D005000FB73AF /* Macro_Challenges_Ridy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Macro_Challenges_Ridy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEC0850F291D005000FB73AF /* Macro_Challenges_RidyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Macro_Challenges_RidyApp.swift; sourceTree = "<group>"; };
 		EEC08511291D005000FB73AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -168,6 +176,10 @@
 				1D012AE9292F800600AD342F /* SugestionView.swift */,
 				1D0B29DF292FAEE800740F33 /* SummaryView.swift */,
 				1D7716C52934B4FC00CD6EB6 /* CountDown.swift */,
+				EE2799CA29360D400020E74C /* CobaCobaView.swift */,
+				EE2799CE29360E130020E74C /* VmDashboard.swift */,
+				EE2799D029360EC70020E74C /* HealthManager.swift */,
+				EE9EF11629373A6C003585A3 /* AskPermissionView.swift */,
 			);
 			path = Macro_Challenges_Ridy;
 			sourceTree = "<group>";
@@ -355,16 +367,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE2799CB29360D400020E74C /* CobaCobaView.swift in Sources */,
 				EEC08512291D005000FB73AF /* ContentView.swift in Sources */,
+				EE9EF11729373A6C003585A3 /* AskPermissionView.swift in Sources */,
 				1D0CB30A293449CF00C706CC /* MainView.swift in Sources */,
 				1D7716C62934B4FC00CD6EB6 /* CountDown.swift in Sources */,
 				1D17855E2938527B00CDC14E /* OnBoardingView.swift in Sources */,
 				1D0CB306293445E600C706CC /* HistoryView.swift in Sources */,
 				1D9B926D292E228700123523 /* KSSLevelView.swift in Sources */,
 				1D012AEA292F800600AD342F /* SugestionView.swift in Sources */,
+				EE2799D129360EC70020E74C /* HealthManager.swift in Sources */,
 				1D8BB568292B773A00E65DE0 /* DashboardView.swift in Sources */,
 				EEC08510291D005000FB73AF /* Macro_Challenges_RidyApp.swift in Sources */,
 				1D0B29E0292FAEE800740F33 /* SummaryView.swift in Sources */,
+				EE2799CF29360E130020E74C /* VmDashboard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,14 +532,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"Macro_Challenges_Ridy WatchKit Extension/Preview Content\"";
 				DEVELOPMENT_TEAM = HTHQDDC4TA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Macro_Challenges_Ridy WatchKit Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Macro_Challenges_Ridy WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_CFBundleDisplayName = "macro.challenges.ridy WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = Macro_Challenges_Ridy_WatchKit_Extension.ComplicationController;
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "This app requires to access your health data to calculate your fatigue level.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app requires to access your health data to calculate your fatigue level.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This app requires to access your health data to calculate your fatigue level.";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -532,7 +551,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Macro-Challenges-Ridy.watchkitapp.watchkitextension";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.macro.challenges.ridy.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -548,14 +567,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"Macro_Challenges_Ridy WatchKit Extension/Preview Content\"";
 				DEVELOPMENT_TEAM = HTHQDDC4TA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Macro_Challenges_Ridy WatchKit Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Macro_Challenges_Ridy WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_CFBundleDisplayName = "macro.challenges.ridy WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = Macro_Challenges_Ridy_WatchKit_Extension.ComplicationController;
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "This app requires to access your health data to calculate your fatigue level.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app requires to access your health data to calculate your fatigue level.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This app requires to access your health data to calculate your fatigue level.";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -564,7 +586,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Macro-Challenges-Ridy.watchkitapp.watchkitextension";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.macro.challenges.ridy.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -583,15 +605,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = HTHQDDC4TA;
 				GENERATE_INFOPLIST_FILE = YES;
 				IBSC_MODULE = Macro_Challenges_Ridy_WatchKit_Extension;
 				INFOPLIST_KEY_CFBundleDisplayName = "Macro_Challenges_Ridy WatchKit App";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.test.Macro-Challenges-Ridy";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.test.macro.challenges.ridy;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Macro-Challenges-Ridy.watchkitapp";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.macro.challenges.ridy.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -609,15 +631,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = HTHQDDC4TA;
 				GENERATE_INFOPLIST_FILE = YES;
 				IBSC_MODULE = Macro_Challenges_Ridy_WatchKit_Extension;
 				INFOPLIST_KEY_CFBundleDisplayName = "Macro_Challenges_Ridy WatchKit App";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.test.Macro-Challenges-Ridy";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.test.macro.challenges.ridy;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Macro-Challenges-Ridy.watchkitapp";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.macro.challenges.ridy.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -635,11 +657,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"Macro_Challenges_Ridy/Preview Content\"";
 				DEVELOPMENT_TEAM = HTHQDDC4TA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Macro-Challenges-Ridy-Info.plist";
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "This app requires to access your health data to calculate your fatigue level.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app requires to access your health data to calculate your fatigue level.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This app requires to access your health data to calculate your fatigue level.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -651,7 +677,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Macro-Challenges-Ridy";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.macro.challenges.ridy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -666,11 +692,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"Macro_Challenges_Ridy/Preview Content\"";
 				DEVELOPMENT_TEAM = HTHQDDC4TA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Macro-Challenges-Ridy-Info.plist";
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "This app requires to access your health data to calculate your fatigue level.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app requires to access your health data to calculate your fatigue level.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This app requires to access your health data to calculate your fatigue level.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -682,7 +712,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Macro-Challenges-Ridy";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.macro.challenges.ridy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
