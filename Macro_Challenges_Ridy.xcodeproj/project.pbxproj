@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17571A7629392BD700BDC2AF /* KSSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17571A7529392BD700BDC2AF /* KSSView.swift */; };
 		1D012AEA292F800600AD342F /* SugestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D012AE9292F800600AD342F /* SugestionView.swift */; };
 		1D0B29E0292FAEE800740F33 /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0B29DF292FAEE800740F33 /* SummaryView.swift */; };
 		1D0CB306293445E600C706CC /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0CB305293445E600C706CC /* HistoryView.swift */; };
@@ -85,6 +86,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		17571A7529392BD700BDC2AF /* KSSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSSView.swift; sourceTree = "<group>"; };
 		1D012AE9292F800600AD342F /* SugestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SugestionView.swift; sourceTree = "<group>"; };
 		1D0B29DF292FAEE800740F33 /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
 		1D0CB305293445E600C706CC /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
@@ -173,6 +175,7 @@
 				1D8BB567292B773A00E65DE0 /* DashboardView.swift */,
 				1D0CB305293445E600C706CC /* HistoryView.swift */,
 				1D9B926C292E228700123523 /* KSSLevelView.swift */,
+				17571A7529392BD700BDC2AF /* KSSView.swift */,
 				1D012AE9292F800600AD342F /* SugestionView.swift */,
 				1D0B29DF292FAEE800740F33 /* SummaryView.swift */,
 				1D7716C52934B4FC00CD6EB6 /* CountDown.swift */,
@@ -367,6 +370,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17571A7629392BD700BDC2AF /* KSSView.swift in Sources */,
 				EE2799CB29360D400020E74C /* CobaCobaView.swift in Sources */,
 				EEC08512291D005000FB73AF /* ContentView.swift in Sources */,
 				EE9EF11729373A6C003585A3 /* AskPermissionView.swift in Sources */,
@@ -536,7 +540,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"Macro_Challenges_Ridy WatchKit Extension/Preview Content\"";
-				DEVELOPMENT_TEAM = HTHQDDC4TA;
+				DEVELOPMENT_TEAM = CM2D7VGPUC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Macro_Challenges_Ridy WatchKit Extension/Info.plist";
@@ -571,7 +575,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"Macro_Challenges_Ridy WatchKit Extension/Preview Content\"";
-				DEVELOPMENT_TEAM = HTHQDDC4TA;
+				DEVELOPMENT_TEAM = CM2D7VGPUC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Macro_Challenges_Ridy WatchKit Extension/Info.plist";
@@ -661,7 +665,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"Macro_Challenges_Ridy/Preview Content\"";
-				DEVELOPMENT_TEAM = HTHQDDC4TA;
+				DEVELOPMENT_TEAM = CM2D7VGPUC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Macro-Challenges-Ridy-Info.plist";
@@ -696,7 +700,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"Macro_Challenges_Ridy/Preview Content\"";
-				DEVELOPMENT_TEAM = HTHQDDC4TA;
+				DEVELOPMENT_TEAM = CM2D7VGPUC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Macro-Challenges-Ridy-Info.plist";
