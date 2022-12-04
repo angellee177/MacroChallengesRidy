@@ -18,6 +18,10 @@ class VmForDashboard:ObservableObject{
         
     }
     
+    func request(){
+        HealthManager.shared.request()
+    }
+    
     func fetchLastSleep(){
         HealthManager.shared.fetchSleep(){ item in
             DispatchQueue.main.async {

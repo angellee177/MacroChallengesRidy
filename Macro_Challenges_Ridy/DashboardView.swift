@@ -70,7 +70,7 @@ struct DashboardView: View {
                     
                     Spacer()
                     
-                    NavigationLink(destination: KSSLevelView().environmentObject(isDashboardActive), tag: "KSS", selection: $isDashboardActive.isDashboardActive){EmptyView()}
+                    NavigationLink(destination: KSSView().environmentObject(isDashboardActive), tag: "KSS", selection: $isDashboardActive.isDashboardActive){EmptyView()}
                     
                     Text("Check")
                         .fontWeight(.bold)
