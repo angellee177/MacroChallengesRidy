@@ -44,17 +44,27 @@ struct SummaryView: View {
                             HStack{
                                 Spacer()
                                     .frame(width: 5)
+                                
                                 Text("Pre-Ride HR")
-                                    .foregroundColor(.white)
-                                    .frame(width: 159, height: 22, alignment: .leading)
+                                        .foregroundColor(.white)
+                                        .frame(width: 159, height: 22, alignment: .leading)
                                 
                                 Spacer()
                                     .frame(width: 32)
 
-                                Text(": 93 BPM")
-                                    .font(.title3)
-                                    .fontWeight(.semibold)
-                                    .foregroundColor(.green)
+                                if let val = vmModel.myHR {
+                                                Text("\(val)")
+                                        .font(.title3)
+                                        .fontWeight(.semibold)
+                                        .foregroundColor(.green)
+
+                                } else {
+                                    Text(": No data.")
+                                        .font(.title3)
+                                        .fontWeight(.semibold)
+                                        .foregroundColor(.green)
+                                }
+
                             }.frame(width: 300, height: 24, alignment: .leading)
                         }
                         
@@ -67,6 +77,8 @@ struct SummaryView: View {
                             HStack{
                                 Spacer()
                                     .frame(width: 5)
+                                
+                                
                                 Text("Oxygen Level")
                                     .foregroundColor(.white)
                                     .frame(width: 159, height: 22, alignment: .leading)
