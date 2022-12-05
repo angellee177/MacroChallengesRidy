@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct SugestionView: View {
+    @Binding var selectedKSS : String
     var body: some View {
         ZStack{
             Color.black.edgesIgnoringSafeArea(.all)
@@ -49,7 +50,7 @@ struct SugestionView: View {
                             Text("Currently, you feel")
                                 .foregroundColor(.white)
 
-                            Text("Rather Allert")
+                            Text(selectedKSS)
                                 .fontWeight(.bold)
                                 .foregroundColor(Color("Color2"))
                             
@@ -124,6 +125,6 @@ struct SugestionView: View {
 
 struct SugestionView_Previews: PreviewProvider {
     static var previews: some View {
-        SugestionView()
+        SugestionView(selectedKSS: .constant(""))
     }
 }

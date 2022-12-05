@@ -16,7 +16,7 @@ struct KSSView: View {
     }
     
     @EnvironmentObject var dashboard : NavigationDahsboard
-    
+    @State var selectedKSS = ""
     var body: some View {
         GeometryReader { geo in
             ZStack {
@@ -41,12 +41,13 @@ struct KSSView: View {
                             VStack {
                                 RadioButtonGroup(items: ["Extremely Alert", "Very Alert", "Alert", "Rather Alert", "Neither Alert Nor Sleepy", "Some sign of sleepiness", "Sleepy, no effort to keep awake", "Sleepy, some effort to keep awake", "Very sleepy, great effort to keep awake"], selectedId: "London") { selected in
                                     print("Selected is: \(selected)")
+                                    self.selectedKSS = selected
                                 }
                             }
                             Spacer()
                                 .frame(height: 30)
                             VStack {
-                                NavigationLink(destination: SugestionView()){
+                                NavigationLink(destination: SugestionView(selectedKSS: $selectedKSS)){
                                     Text("Check My Health Data")
                                         .fontWeight(.bold)
                                         .frame(width: 330)
@@ -58,7 +59,7 @@ struct KSSView: View {
                                                 .stroke(LinearGradient(colors: [Color("Color4"), Color("Color5")], startPoint: .leading, endPoint: .trailing), lineWidth: 4)
                                                 .frame(width: 346)
                                         )
-                                }
+                                }.disabled(selectedKSS.isEmpty)
                             }
                         }
                     }
