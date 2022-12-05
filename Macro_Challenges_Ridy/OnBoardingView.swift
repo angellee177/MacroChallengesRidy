@@ -7,6 +7,7 @@
 
 import SwiftUI
 struct OnBoardingView: View {
+    
     @Binding var shouldShowOnBoarding: Bool
     
     var body: some View {
@@ -42,12 +43,14 @@ struct OnBoardingView: View {
 }
 
 struct PageView: View {
+    
     let title: String
     let subtitle: String
     let imageName: String
     let showDismissButton: Bool
-    @Binding var shouldShowOnBoarding: Bool
     
+    @Binding var shouldShowOnBoarding: Bool
+    @StateObject var vmModel = VmForDashboard()
     
     var body: some View {
         
@@ -99,7 +102,11 @@ struct PageView: View {
             
             if showDismissButton {
                 Button(action: {
+                    vmModel.request()
                     shouldShowOnBoarding.toggle()
+//                    if shouldShowOnBoarding == true {
+//                            vmModel.request()
+//                    }
                 }, label: {
                     Text("Next")
                         .fontWeight(.bold)
