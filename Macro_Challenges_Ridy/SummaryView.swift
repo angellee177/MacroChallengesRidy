@@ -10,7 +10,7 @@ import HalfASheet
 
 struct SummaryView: View {
     @State private var isShowing = false
-    @StateObject var vmModel = VmForDashboard()
+    @ObservedObject var vmModelData: VmForDashboard
     
     @EnvironmentObject var isDashboardActive : NavigationDahsboard
     var body: some View {
@@ -52,7 +52,7 @@ struct SummaryView: View {
                                 Spacer()
                                     .frame(width: 32)
 
-                                if let val = vmModel.myHR {
+                                if let val = vmModelData.myHR {
                                                 Text("\(val)")
                                         .font(.title3)
                                         .fontWeight(.semibold)
@@ -109,7 +109,7 @@ struct SummaryView: View {
                                 Spacer()
                                     .frame(width: 32)
                                 
-                                if let date = vmModel.lastTimeSleep {
+                                if let date = vmModelData.lastTimeSleep {
                                     Text("\(date)").font(.title3)
                                         .fontWeight(.semibold)
                                         .foregroundColor(Color("Color2"))
@@ -238,6 +238,6 @@ struct SummaryView: View {
 
 struct SummaryView_Previews: PreviewProvider {
     static var previews: some View {
-        SummaryView()
+        SummaryView(vmModelData: VmForDashboard())
     }
 }

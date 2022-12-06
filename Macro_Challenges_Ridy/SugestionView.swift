@@ -9,6 +9,8 @@ import SwiftUI
 
 struct SugestionView: View {
     @Binding var selectedKSS : String
+    @StateObject var vmModel = VmForDashboard()
+    
     var body: some View {
         ZStack{
             Color.black.edgesIgnoringSafeArea(.all)
@@ -104,7 +106,7 @@ struct SugestionView: View {
                 Spacer()
                 
                 VStack{
-                    NavigationLink(destination: SummaryView()){
+                    NavigationLink(destination: SummaryView(vmModelData: vmModel)){
                         Text("See Summary")
                             .fontWeight(.bold)
                             .frame(width: 330)
@@ -119,6 +121,9 @@ struct SugestionView: View {
                     }
                 }
             }
+        }.onAppear {
+            vmModel.fetchHRFromHealthKit()
+            vmModel.fetchLastSleep()
         }
     }
 }

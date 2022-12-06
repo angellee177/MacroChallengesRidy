@@ -17,7 +17,6 @@ struct KSSView: View {
     
     @EnvironmentObject var dashboard : NavigationDahsboard
     @State var selectedKSS = ""
-    @StateObject var vmModel = VmForDashboard()
     
     var body: some View {
         GeometryReader { geo in
@@ -62,10 +61,6 @@ struct KSSView: View {
                                                 .frame(width: 346)
                                         )
                                 }.disabled(selectedKSS.isEmpty)
-                            }
-                            .onTapGesture {
-                                vmModel.fetchHRFromHealthKit()
-                                vmModel.fetchLastSleep()
                             }
                         }
                     }
